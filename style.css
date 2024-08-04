@@ -1,0 +1,171 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    
+    .box1{
+        display: flex;
+        gap: 40px;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+.title{
+    h1{
+        font-size: 60px;
+        letter-spacing: 2px;
+    }
+
+    p{
+        font-size: 12px;
+        color: #333333;
+    }
+
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.section2{
+    margin-top: 200px;
+    
+    .wrap1{
+        display: flex;
+        align-items: center;
+        gap: 160px;
+        justify-content: center;
+
+        .box2{
+            h2{
+                font-size: 56px;
+                letter-spacing: 1px;
+            }
+            h3{
+                font-size: 40px;
+                letter-spacing: 1px;
+
+            }
+            h4{
+                font-size: 22px;
+                letter-spacing: 1px;
+
+            }
+            p{
+                font-size: 16px;
+                letter-spacing: 1px;
+
+            }
+        }
+    }
+}
+
+.section3{
+    background-color: black;
+    margin-left: -270px;
+    margin-right: -10px;
+    margin-top: 250px;
+    height: 775px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1{
+        color: white;
+        font-size: 72px;
+        margin: 0;
+        letter-spacing: 8px;
+        
+    }
+}
+
+.section4{
+    margin-top: 150px;
+
+    .wrap3{
+        h3{
+            font-size: 54px;
+            text-align: center;
+        }
+
+        .logos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 70px;
+        }
+    }
+}
+
+.section5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+
+
+    img{
+        margin-top: 115px;
+        max-height: 772px;
+        height: 100%;
+    }
+
+    p{
+        font-size: 25px;
+        margin-top: 60px;
+        margin-left: -15px;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+        margin-left: -15px;
+    }
+}
+
+.footer{
+    background-color: black;
+    margin: 350px -10px -10px -10px;
+    padding: 260px;
+
+    h1{
+        color: white;
+        text-align: center;
+        font-size: 54px;
+    }
+
+    .end{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+        p{
+            color: #818181;
+        }
+    }
+
+    .end2{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+        p{
+            color: #818181;
+        }
+    }
+}
